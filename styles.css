@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.contenedor
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    margin-bottom: 60px;
+}
+
+h1
+{
+    font-size: 64px;
+    padding: 20px 20px 20px 34px;
+    margin-right: 72px;
+}
+
+input
+{
+    border: 2px solid black;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    margin-right: 130px;
+}
+
+.botonCeleste
+{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    box-shadow: 4px 2px black;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-size: 18px;
+    height: 50px;
+}
+
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.main_izquierdo
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo_palabra
+{
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.palabra_izquierda
+{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 26%;
+    margin-left: 20px;
+}
+
+h2
+{
+    font-size: 40px;
+    padding: 20px 0px 10px 0px;
+}
+
+.cursiva
+{
+    font-style: italic;
+    padding: 0px 0px 10px 0px;
+}
+
+.botonAmarillo
+{
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 5px 14px 5px 14px;
+    box-shadow: 4px 2px black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0px 30px 0px;
+}
+
+
+.palabra_derecha
+{
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 138px;
+}
+
+.texto
+{
+    font-size: 26px;
+}
+
+.link
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+.main_derecho
+{
+    width: 25%;
+}
+
+.campo_informacion
+{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h3
+{
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.negrita
+{
+    font-weight: bold;
+}
+
+.botonVerde
+{
+    color: black;
+    border: 3px solid black;
+    background-color: green;
+    font-weight: 100;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 4px 2px black;
+}
